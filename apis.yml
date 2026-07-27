@@ -1,8 +1,16 @@
 aid: guideline
 name: Guideline
-description: Guideline is a company surfaced as a portfolio company of 500-global, felicis, sv-angel and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Guideline (now offered as "Gusto 401(k) powered by Guideline") is a retirement
+  benefits provider that delivers full-service, low-cost 401(k) and IRA plans to
+  small and mid-sized businesses, tightly integrated with payroll so employee
+  deductions and employer contributions sync automatically. Through its
+  SEC-registered investment adviser subsidiary it offers managed, low-cost
+  index-fund portfolios, recordkeeping, compliance and plan administration.
+  Guideline reports serving 40,000+ businesses and 700,000+ savers with $10B+ in
+  assets under management. It exposes no public developer API; this profile
+  captures its identity, security posture, and machine-readable surfaces
+  (security.txt, llms.txt) for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/guideline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +20,31 @@ x-backed-by:
 - sv-angel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cms-assets.guideline.com/Sponsor_dash_014e7269b8/public
 tags:
 - Company
+- Retirement
+- 401(k)
+- IRA
+- Financial Services
+- Fintech
+- Payroll
+- Investing
+- Wealth Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,38 @@ maintainers:
 common:
 - type: Website
   url: https://guideline.com
+- type: Support
+  url: https://help.guideline.com/en
+- type: Blog
+  url: https://www.guideline.com/education
+- type: SignUp
+  url: https://my.guideline.com/explore/get-started
+- type: Login
+  url: https://my.guideline.com/login
+- type: PrivacyPolicy
+  url: https://my.guideline.com/agreements/privacy
+- type: TermsOfService
+  url: https://my.guideline.com/agreements/tos
+- type: GitHubOrganization
+  url: https://github.com/Guideline
+- type: Security
+  url: https://www.guideline.com/security
+- type: Compliance
+  url: https://www.guideline.com/security
+- type: TrustCenter
+  url: security/guideline-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/guideline-vulnerability-disclosure.yml
+- type: SecurityTxt
+  url: well-known/guideline-security.txt
+- type: WellKnown
+  url: well-known/guideline-well-known.yml
+- type: DomainSecurity
+  url: security/guideline-domain-security.yml
+- type: LLMsTxt
+  url: llms/guideline-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

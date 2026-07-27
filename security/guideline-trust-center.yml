@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://www.guideline.com/security
+url: https://www.guideline.com/security
+certifications:
+- SOC 2 Type II
+compliance_notes: >-
+  SOC 2 Type II attestation report is available upon request under a
+  non-disclosure agreement. No ISO 27001, PCI DSS, or SSAE 18 certifications
+  are published on the security page.
+practices:
+- TLS encryption in transit; data encrypted at rest with additional layers for sensitive data
+- Mandatory two-factor authentication (SMS or authenticator app)
+- Web Application Firewall, login-attempt throttling (brute-force protection)
+- Weekly vulnerability scanning and regular penetration testing
+- OWASP Top 10 developer training, static analysis, mandatory peer code review
+- Principle of least privilege for administrative/production access
+- Full-disk encryption and endpoint detection & response (EDR) on company devices
+evidence:
+- source: https://www.guideline.com/security
+  keywords:
+  - soc 2 type ii
+  - encryption
+  - penetration testing
+  - two-factor authentication
