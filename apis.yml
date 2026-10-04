@@ -51,7 +51,7 @@ tags:
 - Retirement
 - 401k
 - IRA
-- Financial-Services
+- Financial Services
 - Fintech
 - Payroll
 - Investing
@@ -66,6 +66,7 @@ tags_raw:
 - Payroll
 - Investing
 - Wealth Management
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
